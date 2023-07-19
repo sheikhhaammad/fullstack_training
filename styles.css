@@ -4,7 +4,7 @@
 /* a.) Element Selector - Selects element based on the name */
 @import url('https://fonts.googleapis.com/css2?family=Amiri&family=Mukta:wght@300&family=Roboto:ital,wght@0,100;1,300&family=Tektur&display=swap');
 body {
-    background: linear-gradient(rgb(54, 129, 138),rgb(53, 215, 139));
+    background: linear-gradient(rgb(3, 105, 114),rgb(169, 47, 47));
     font-family: 'Lumanosimo' , sans-serif;
 }
 h1 {
@@ -13,14 +13,14 @@ h1 {
 /* b.) id Selector - Selects the element based on the id. */
 #heading-one:hover {
 
-    color: rgb(0, 0, 0);
+    color: rgb(205, 205, 205);
 }
 /* c.) class Selector - Selects the elements based on the class name */
 /* #para-one, #para-two, #para-four {
     color: gray;
 } */
 .myPara {
-    color: rgb(16, 0, 236);
+    color: rgb(208, 255, 0);
 }
 /* d.) Attribute Slector */
 /* elementName[attributeName condition] */
@@ -29,13 +29,13 @@ h1 {
 $ -> Ends with
 * -> contains */
 a[href^="https://"] {
-    color: rgb(109, 235, 31);
+    color: rgb(0, 0, 0);
 }
 a[href$=".jpg"] {
     color: maroon;
 }
 a[href*="/"] {
-    color: red;
+    color: rgb(208, 192, 192);
 }
 img[src^="../"] {
     border: 10px solid gray;
@@ -43,13 +43,13 @@ img[src^="../"] {
 /* e.) Pseudo Selectors */
 /* elementName: pseudoProperty { ... } */
 ol:first-child {
-    color: red;
+    color: rgb(227, 218, 218);
 }
 li:first-child {
-    color: green;
+    color: rgb(43, 255, 0);
 }
 .ordered-list-item:last-child {
-    color: red;
+    color: rgb(0, 232, 0);
 }
 .unordered-list-item:first-child {
     color: blue;
@@ -58,19 +58,26 @@ li:first-child {
     color: yellow;
 }
 #container{
-    width: 400px;
-    height: 400px;
+    width: 1500px;
+    height: 800px;
     background-color: aqua;
     background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    border: 5px solid rgb(255, 255, 255);
 }
 #container-2
 {
-width: 400px;
-height: 400px;
-background: radial-gradient(red 10%, yellow 20% ,green 30%,pink 90% );
+    width: 1500px;
+    height: 800px;
+    background: aqua;
+    background-image: linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet);
+    border: 5px solid rgb(255, 255, 255);
 }
 #container-3{
-    width: 400px;
-    height: 400px;
-    background: conic;
+    
+width: 1500px;
+height: 400px;
+background: radial-gradient( red,orange,yellow,green,blue,indigo,violet );
+border: 5px solid rgb(255, 255, 255);
+
 }
+
