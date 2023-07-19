@@ -1,0 +1,76 @@
+/* 1. Selectors */
+
+/* selector { cssProperty: cssValue; } */
+/* a.) Element Selector - Selects element based on the name */
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Mukta:wght@300&family=Roboto:ital,wght@0,100;1,300&family=Tektur&display=swap');
+body {
+    background: linear-gradient(rgb(54, 129, 138),rgb(53, 215, 139));
+    font-family: 'Lumanosimo' , sans-serif;
+}
+h1 {
+    color: rgba(0, 255, 200, 0.922);
+}
+/* b.) id Selector - Selects the element based on the id. */
+#heading-one:hover {
+
+    color: rgb(0, 0, 0);
+}
+/* c.) class Selector - Selects the elements based on the class name */
+/* #para-one, #para-two, #para-four {
+    color: gray;
+} */
+.myPara {
+    color: rgb(16, 0, 236);
+}
+/* d.) Attribute Slector */
+/* elementName[attributeName condition] */
+/* I want to find the <a> whose href starts with https:// */
+/* ^ -> Starts with
+$ -> Ends with
+* -> contains */
+a[href^="https://"] {
+    color: rgb(109, 235, 31);
+}
+a[href$=".jpg"] {
+    color: maroon;
+}
+a[href*="/"] {
+    color: red;
+}
+img[src^="../"] {
+    border: 10px solid gray;
+} 
+/* e.) Pseudo Selectors */
+/* elementName: pseudoProperty { ... } */
+ol:first-child {
+    color: red;
+}
+li:first-child {
+    color: green;
+}
+.ordered-list-item:last-child {
+    color: red;
+}
+.unordered-list-item:first-child {
+    color: blue;
+}
+.ordered-list-item:nth-child(3) {
+    color: yellow;
+}
+#container{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+#container-2
+{
+width: 400px;
+height: 400px;
+background: radial-gradient(red 10%, yellow 20% ,green 30%,pink 90% );
+}
+#container-3{
+    width: 400px;
+    height: 400px;
+    background: conic;
+}
