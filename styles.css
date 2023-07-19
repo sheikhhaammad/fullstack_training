@@ -26,6 +26,7 @@ h1 {
 } */
 .myPara {
     color: rgb(208, 255, 0);
+    font-size: large;
 }
 /* d.) Attribute Slector */
 /* elementName[attributeName condition] */
@@ -88,4 +89,7 @@ border: 5px solid rgb(255, 255, 255);
 #container-4{
 
     border: 2px dotted white;
+}
+#container-font-size{
+    font-size: large;
 }
