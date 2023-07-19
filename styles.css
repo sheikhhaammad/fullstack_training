@@ -4,11 +4,13 @@
 /* a.) Element Selector - Selects element based on the name */
 @import url('https://fonts.googleapis.com/css2?family=Amiri&family=Mukta:wght@300&family=Roboto:ital,wght@0,100;1,300&family=Tektur&display=swap');
 body {
-    background: linear-gradient(rgb(3, 105, 114),rgb(169, 47, 47));
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Lumanosimo' , sans-serif;
 }
 h1 {
-    color: rgba(0, 255, 200, 0.922);
+    color: rgba(164, 198, 27, 0.922);
 }
 /* b.) id Selector - Selects the element based on the id. */
 #heading-one:hover {
@@ -58,26 +60,27 @@ li:first-child {
     color: yellow;
 }
 #container{
-    width: 1500px;
-    height: 800px;
+    width: 200px;
+    height: 200px;
     background-color: aqua;
     background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
     border: 5px solid rgb(255, 255, 255);
 }
 #container-2
 {
-    width: 1500px;
-    height: 800px;
+    width: 200px;
+    height: 200px;
     background: aqua;
     background-image: linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet);
     border: 5px solid rgb(255, 255, 255);
 }
 #container-3{
     
-width: 1500px;
-height: 400px;
+width: 200px;
+height: 200px;
 background: radial-gradient( red,orange,yellow,green,blue,indigo,violet );
 border: 5px solid rgb(255, 255, 255);
 
 }
 
+ 
