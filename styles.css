@@ -11,6 +11,9 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 }
 h1 {
     color: rgba(164, 198, 27, 0.922);
+    text-align: center;
+    text-shadow: 10px 10px 8px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 /* b.) id Selector - Selects the element based on the id. */
 #heading-one:hover {
@@ -82,5 +85,7 @@ background: radial-gradient( red,orange,yellow,green,blue,indigo,violet );
 border: 5px solid rgb(255, 255, 255);
 
 }
+#container-4{
 
- 
+    border: 2px dotted white;
+}
