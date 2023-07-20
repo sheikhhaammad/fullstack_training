@@ -25,7 +25,7 @@ h1 {
     color: gray;
 } */
 .myPara {
-    color: rgb(208, 255, 0);
+    color: rgb(202, 202, 202);
     font-size: large;
 }
 /* d.) Attribute Slector */
@@ -41,10 +41,10 @@ a[href$=".jpg"] {
     color: maroon;
 }
 a[href*="/"] {
-    color: rgb(208, 192, 192);
+    color: rgb(255, 255, 255);
 }
 img[src^="../"] {
-    border: 10px solid gray;
+    border: 10px solid rgb(255, 255, 255);
 } 
 /* e.) Pseudo Selectors */
 /* elementName: pseudoProperty { ... } */
@@ -52,10 +52,10 @@ ol:first-child {
     color: rgb(227, 218, 218);
 }
 li:first-child {
-    color: rgb(43, 255, 0);
+    color: rgb(255, 255, 255);
 }
 .ordered-list-item:last-child {
-    color: rgb(0, 232, 0);
+    color: rgb(255, 255, 255);
 }
 .unordered-list-item:first-child {
     color: blue;
