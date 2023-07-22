@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "training",
+			"path": "."
+		},
+		{
+			"name": "bootstrap-3.4.1-dist",
+			"path": "../../Documents/bootstrap-3.4.1-dist/bootstrap-3.4.1-dist"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "training"
+	}
+}
